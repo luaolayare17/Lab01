@@ -13,34 +13,8 @@ public class  CalculadoraLaboratorio1
         
        Scanner entrada = new Scanner (System.in);
        int seleccion = 0;
-  while (seleccion != 9)
-     {
-         System.out.println("\n¿Que operacion desea ejecutar?\n1.Suma\n2.Resta\n3.Multiplicacion\n4.Division\n5.Funciones trigonometricas\n6.Raiz\n7.Potencia\n8.IVA\n9.Finalizar\n");
-       seleccion = entrada.nextInt();
-       
-       switch(seleccion)
-                {
-                    case 1:
-                    suma (); break;
-                    case 2:
-                    resta (); break;
-                    case 3:
-                    multiplicacion (); break;
-                    case 4:
-                    division (); break;
-                    case 5:
-                        funciones(); break;
-                    case 6:
-                        raiz ();break;
-                    case 7:
-                        potencia();break;
-                    case 8:
-                        IVA ();break;
-                    case 9:
-                        
-                    /*case default:
-                        System.out.println("Elección incorrecta");
-            */}
+        // Creacion del menu para la consola y  la interfaz grafica
+ 
       }
     }
     
@@ -61,7 +35,7 @@ public class  CalculadoraLaboratorio1
             System.out.println("La sumatoria es de: " + sumatoria);
             Thread.sleep(4000); 
     }
-    
+  
      public static void resta () throws InterruptedException
     {
         System.out.println("Ha elegido resta");
